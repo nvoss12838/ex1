@@ -1,1 +1,6 @@
-print 'Hello World'
+hw =  'Hello World'
+f = open('helloworld.txt','w')
+for letter in hw:
+	f.write(letter+ '\n')
+f.close()
+
